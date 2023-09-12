@@ -1,0 +1,23 @@
+body {
+  background-color: #000000 !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 35px;
+  color: #ffffff;
+}
